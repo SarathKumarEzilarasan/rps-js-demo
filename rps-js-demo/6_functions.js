@@ -16,8 +16,10 @@ function add(i,j = 20){
 
 // console.log(display());
 
-let display = function (i,j = 20){
-    return i+j;
-}
+// let display = function (i,j = 20){
+//     return i+j;
+// }
 
-console.log(display(10,20));
+// console.log(display(10,20));
+
+let display = (i,j = 20) => i+j;
